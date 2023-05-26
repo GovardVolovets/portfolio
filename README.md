@@ -27,3 +27,24 @@
   - Видео
   - Фото
 
+<p><a href="javascript:void(0);" onclick="showImage(5)">Видео</a></p>
+<div id="imageContainer5" style="display: none;">
+  <img id="imageObject5" src="videos/workConverter.mp4" alt="Пример mp4" width="75%" height="auto">
+</div>
+
+<p><a href="javascript:void(0);" onclick="showImage(5)">Фото</a></p>
+<div id="imageContainer5" style="display: none;">
+  <img id="imageObject5" src="images/converter.png" alt="Пример PNG" width="75%" height="auto">
+</div>
+
+<script>
+  function showImage(id) {
+    var imageContainer = document.getElementById("imageContainer" + id);
+    if (imageContainer.style.display === "none") {
+      imageContainer.style.display = "block";
+    } else {
+      imageContainer.style.display = "none";
+    }
+  }
+</script>
+
