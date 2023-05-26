@@ -29,23 +29,23 @@
 <div id="videoContainer3" style="display: none;">
   <video id="videoObject3" src="videos/gameplayvideo3.mp4" width="100%" height="auto" controls></video>
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(6)">Фото</a></p>
+<p><a href="javascript:void(0);" onclick="showImage(6)">Фото_1</a></p>
 <div id="imageContainer6" style="display: none;">
   <img id="imageObject6" src="images/SnapshotLevel3.png" alt="Пример PNG" width="100%" height="auto">
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(7)">Фото</a></p>
+<p><a href="javascript:void(0);" onclick="showImage(7)">Фото_2</a></p>
 <div id="imageContainer7" style="display: none;">
   <img id="imageObject7" src="images/SnapshotLevel5.png" alt="Пример PNG" width="100%" height="auto">
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(8)">Фото</a></p>
+<p><a href="javascript:void(0);" onclick="showImage(8)">Фото_3</a></p>
 <div id="imageContainer8" style="display: none;">
   <img id="imageObject8" src="images/SnapshotLevel9.png" alt="Пример PNG" width="100%" height="auto">
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(9)">Фото</a></p>
+<p><a href="javascript:void(0);" onclick="showImage(9)">Фото_4</a></p>
 <div id="imageContainer9" style="display: none;">
   <img id="imageObject9" src="images/SnapshotLevel12.pngg" alt="Пример PNG" width="100%" height="auto">
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(10)">Фото</a></p>
+<p><a href="javascript:void(0);" onclick="showImage(10)">Фото_5</a></p>
 <div id="imageContainer10" style="display: none;">
   <img id="imageObject10" src="images/SnapshotLevel19.png" alt="Пример PNG" width="100%" height="auto">
 </div>
