@@ -16,10 +16,39 @@
 
 ## Игра на платформе Unity
 * 2-D игра на платформе Unity. Цель - попасть шариком в стаканчик. Создал игру после прохождения курса "Профессия Unity разработчик". Делал для себя, что бы потренироваться.
-  - Видео 1
-  - Видео 2
-  - Видео 3
-  
+
+<p><a href="javascript:void(0);" onclick="showVideo(1)">Видео_1</a></p>
+<div id="videoContainer1" style="display: none;">
+  <video id="videoObject1" src="videos/gameplayvideo1.mp4" width="100%" height="auto" controls></video>
+</div>
+<p><a href="javascript:void(0);" onclick="showVideo(2)">Видео_2</a></p>
+<div id="videoContainer2" style="display: none;">
+  <video id="videoObject2" src="videos/gameplayvideo2.mp4" width="100%" height="auto" controls></video>
+</div>
+<p><a href="javascript:void(0);" onclick="showVideo(3)">Видео_3</a></p>
+<div id="videoContainer3" style="display: none;">
+  <video id="videoObject3" src="videos/gameplayvideo3.mp4" width="100%" height="auto" controls></video>
+</div>
+<p><a href="javascript:void(0);" onclick="showImage(6)">Фото</a></p>
+<div id="imageContainer6" style="display: none;">
+  <img id="imageObject6" src="images/SnapshotLevel3.png" alt="Пример PNG" width="100%" height="auto">
+</div>
+<p><a href="javascript:void(0);" onclick="showImage(7)">Фото</a></p>
+<div id="imageContainer7" style="display: none;">
+  <img id="imageObject7" src="images/SnapshotLevel5.png" alt="Пример PNG" width="100%" height="auto">
+</div>
+<p><a href="javascript:void(0);" onclick="showImage(8)">Фото</a></p>
+<div id="imageContainer8" style="display: none;">
+  <img id="imageObject8" src="images/SnapshotLevel9.png" alt="Пример PNG" width="100%" height="auto">
+</div>
+<p><a href="javascript:void(0);" onclick="showImage(9)">Фото</a></p>
+<div id="imageContainer9" style="display: none;">
+  <img id="imageObject9" src="images/SnapshotLevel12.pngg" alt="Пример PNG" width="100%" height="auto">
+</div>
+<p><a href="javascript:void(0);" onclick="showImage(10)">Фото</a></p>
+<div id="imageContainer10" style="display: none;">
+  <img id="imageObject10" src="images/SnapshotLevel19.png" alt="Пример PNG" width="100%" height="auto">
+</div>
 <br>
 
 ## Программа для конвертации информации в удобный для человека вид
@@ -27,7 +56,7 @@
 
 <p><a href="javascript:void(0);" onclick="showVideo(4)">Видео</a></p>
 <div id="videoContainer4" style="display: none;">
-  <video id="videoObject4" src="videos/workConverter.mp4" width="75%" height="auto" controls></video>
+  <video id="videoObject4" src="videos/workConverter.mp4" width="100%" height="auto" controls></video>
 </div>
 
 <script>
