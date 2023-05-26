@@ -27,9 +27,9 @@
   - Видео
   - Фото
 
-<p><a href="javascript:void(0);" onclick="showImage(5)">Видео</a></p>
-<div id="imageContainer5" style="display: none;">
-  <img id="imageObject5" src="videos/workConverter.mp4" alt="Пример mp4" width="75%" height="auto">
+<p><a href="javascript:void(0);" onclick="showImage(4)">Видео</a></p>
+<div id="imageContainer4" style="display: none;">
+  <img id="imageObject4" src="videos/workConverter.mp4" alt="Пример mp4" width="75%" height="auto">
 </div>
 
 <p><a href="javascript:void(0);" onclick="showImage(5)">Фото</a></p>
