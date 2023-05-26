@@ -24,17 +24,26 @@
 
 ## Программа для конвертации информации в удобный для человека вид
 * Написал программу "Конвертер", для компании Laed.Aero. Суть программы простая, в поле вводится информация по авиаперелету в таком формате "", программа переводит эту информацию в удобочитаемый человеком вид "". По скольку программа бронирования авиабилетов в состоянии выдавать только в таком формате "", сотрудникам приходилось менять информацию вручную, моя программа ускоряет процесс и сводит к минимуму количество опечаток и ошибок. Программа написана на языке Python.
-  - Видео
-  - Фото
 
-<p><a href="javascript:void(0);" onclick="showImage(4)">Видео</a></p>
-<div id="imageContainer4" style="display: none;">
-  <img id="imageObject4" src="videos/workConverter.mp4" alt="Пример mp4" width="75%" height="auto">
+<p><a href="javascript:void(0);" onclick="showVideo(4)">Видео</a></p>
+<div id="videoContainer4" style="display: none;">
+  <video id="videoObject4" src="videos/workConverter.mp4" width="75%" height="auto" controls></video>
 </div>
+
+<script>
+  function showVideo(id) {
+    var videoContainer = document.getElementById("videoContainer" + id);
+    if (videoContainer.style.display === "none") {
+      videoContainer.style.display = "block";
+    } else {
+      videoContainer.style.display = "none";
+    }
+  }
+</script>
 
 <p><a href="javascript:void(0);" onclick="showImage(5)">Фото</a></p>
 <div id="imageContainer5" style="display: none;">
-  <img id="imageObject5" src="images/converter.png" alt="Пример PNG" width="75%" height="auto">
+  <img id="imageObject5" src="images/converter.png" alt="Пример PNG" width="100%" height="auto">
 </div>
 
 <script>
