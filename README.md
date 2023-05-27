@@ -111,7 +111,7 @@
   }
 </script>
 
-  ## Учебные работы
-  - Page Oject. [Реализовал функцию тестирования переводов с карты на карту банковского приложения с использованием Page Object](https://github.com/GovardVolovets/page-object/blob/main/src/test/java/ru/netology/test/MoneyTransferTest.java). Нашел баг, завел [issues](https://github.com/GovardVolovets/page-object/issues/1)
-  - Selenid/Selenium. Создал различные тесты для тестирования веб-приложения заказа карты клиентом с использованием Selenid/Selenium: [ссылка 1](https://github.com/GovardVolovets/cardApplication/blob/main/src/test/java/ru/netology/cardApplication/CardApplicationTest.java), [ссылка 2](https://github.com/GovardVolovets/selenide/blob/main/src/test/java/ru/netology/web/test/RegistrationTest.java), [ссылка 3](https://github.com/GovardVolovets/patterns-first-task/blob/main/src/test/java/ru/netology/delivery/test/DeliveryTest.java), [ссылка 4](https://github.com/GovardVolovets/patterns-second-task/blob/main/src/test/java/ru/netology/testmode/test/AuthTest.java)
+## Учебные работы
+- Page Oject. [Реализовал функцию тестирования переводов с карты на карту банковского приложения с использованием Page Object](https://github.com/GovardVolovets/page-object/blob/main/src/test/java/ru/netology/test/MoneyTransferTest.java). Нашел баг, завел [issues](https://github.com/GovardVolovets/page-object/issues/1)
+- Selenid/Selenium. Создал различные тесты для тестирования веб-приложения заказа карты клиентом с использованием Selenid/Selenium: [ссылка 1](https://github.com/GovardVolovets/cardApplication/blob/main/src/test/java/ru/netology/cardApplication/CardApplicationTest.java), [ссылка 2](https://github.com/GovardVolovets/selenide/blob/main/src/test/java/ru/netology/web/test/RegistrationTest.java), [ссылка 3](https://github.com/GovardVolovets/patterns-first-task/blob/main/src/test/java/ru/netology/delivery/test/DeliveryTest.java), [ссылка 4](https://github.com/GovardVolovets/patterns-second-task/blob/main/src/test/java/ru/netology/testmode/test/AuthTest.java)
 
