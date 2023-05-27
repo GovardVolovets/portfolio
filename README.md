@@ -7,12 +7,10 @@
     <p style="font-size: 15px; margin-bottom: -1px;">e-mail: g3ag@yandex.ru</p>
     <a href="https://t.me/govardvolovets" style="text-decoration: none; ">Telegram</a> - <a href="https://t.me/govardvolovets" style="text-decoration: none;">https://t.me/govardvolovets</a>
     <br>
-    <a href="https://govardvolovets.github.io/resume/" style="text-decoration: none; ">Резюме</a>
-    <p style="font-size: 30px; margin-top: 1px;">Тестировщик ПО</p>
+    <a href="https://govardvolovets.github.io/resume/" style="text-decoration: none; font-size: 18px;">Резюме</a>
+    <p style="font-size: 30px; margin-top: -3px;">Тестировщик ПО</p>
   </div>
 </div>
-
-<br>
 
 ## Игра на платформе Unity
 * 2-D игра на платформе Unity. Цель - попасть шариком в стаканчик. Создал игру после прохождения курса "Профессия Unity разработчик". Делал для себя, что бы потренироваться.
@@ -70,7 +68,6 @@
 <div id="imageContainer10" style="display: none;">
   <img id="imageObject10" src="images/SnapshotLevel19.png" alt="Пример PNG" width="100%" height="auto">
 </div>
-<br>
 
 ## Программа для конвертации информации в удобный для человека вид
 * Написал программу "Конвертер", для компании Laed.Aero. Суть программы простая, в поле вводится информация по авиаперелету в таком формате "TK 1255 L  09MAR ISTSXB HS1  0910   1040  O         E TH", программа переводит эту информацию в удобочитаемый человеком вид "Рейс TK 1255 - авиакомпания TURKISH AIRLINES.
@@ -80,13 +77,11 @@
 <p><a href="javascript:void(0);" onclick="showVideo(4)">Видео</a></p>
 <div id="videoContainer4" style="display: none;">
   <video id="videoObject4" src="videos/workConverter.mp4" width="100%" height="auto" controls></video>
-
 </div>
 
 <p><a href="javascript:void(0);" onclick="showImage(5)">Фото</a></p>
 <div id="imageContainer5" style="display: none;">
   <img id="imageObject5" src="images/converter.png" alt="Пример PNG" width="100%" height="auto">
-
 </div>
 
 <script>
