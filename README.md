@@ -17,35 +17,56 @@
 ## Игра на платформе Unity
 * 2-D игра на платформе Unity. Цель - попасть шариком в стаканчик. Создал игру после прохождения курса "Профессия Unity разработчик". Делал для себя, что бы потренироваться.
 
-<p><a href="javascript:void(0);" onclick="showVideo(1)">Видео_1</a></p>
+<style>
+  .video-link {
+    display: inline-block;
+    margin-right: 20px;
+  }
+</style>
+
+<p>
+  <a href="javascript:void(0);" onclick="showVideo(1)" class="video-link">Видео_1</a>
+  <a href="javascript:void(0);" onclick="showVideo(2)" class="video-link">Видео_2</a>
+  <a href="javascript:void(0);" onclick="showVideo(3)" class="video-link">Видео_3</a>
+</p>
+
 <div id="videoContainer1" style="display: none;">
   <video id="videoObject1" src="videos/gameplayvideo1.mp4" width="100%" height="auto" controls></video>
 </div>
-<p><a href="javascript:void(0);" onclick="showVideo(2)">Видео_2</a></p>
 <div id="videoContainer2" style="display: none;">
   <video id="videoObject2" src="videos/gameplayvideo2.mp4" width="100%" height="auto" controls></video>
 </div>
-<p><a href="javascript:void(0);" onclick="showVideo(3)">Видео_3</a></p>
 <div id="videoContainer3" style="display: none;">
   <video id="videoObject3" src="videos/gameplayvideo3.mp4" width="100%" height="auto" controls></video>
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(6)">Фото_1</a></p>
+
+<style>
+  .image-link {
+    display: inline-block;
+    margin-right: 20px;
+  }
+</style>
+
+<p>
+  <a href="javascript:void(0);" onclick="showImage(6)" class="image-link">Фото_1</a>
+  <a href="javascript:void(0);" onclick="showImage(7)" class="image-link">Фото_2</a>
+  <a href="javascript:void(0);" onclick="showImage(8)" class="image-link">Фото_3</a>
+  <a href="javascript:void(0);" onclick="showImage(9)" class="image-link">Фото_4</a>
+  <a href="javascript:void(0);" onclick="showImage(10)" class="image-link">Фото_5</a>
+</p>
+
 <div id="imageContainer6" style="display: none;">
   <img id="imageObject6" src="images/SnapshotLevel3.png" alt="Пример PNG" width="100%" height="auto">
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(7)">Фото_2</a></p>
 <div id="imageContainer7" style="display: none;">
   <img id="imageObject7" src="images/SnapshotLevel5.png" alt="Пример PNG" width="100%" height="auto">
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(8)">Фото_3</a></p>
 <div id="imageContainer8" style="display: none;">
   <img id="imageObject8" src="images/SnapshotLevel9.png" alt="Пример PNG" width="100%" height="auto">
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(9)">Фото_4</a></p>
 <div id="imageContainer9" style="display: none;">
   <img id="imageObject9" src="images/SnapshotLevel12.png" alt="Пример PNG" width="100%" height="auto">
 </div>
-<p><a href="javascript:void(0);" onclick="showImage(10)">Фото_5</a></p>
 <div id="imageContainer10" style="display: none;">
   <img id="imageObject10" src="images/SnapshotLevel19.png" alt="Пример PNG" width="100%" height="auto">
 </div>
@@ -59,6 +80,13 @@
 <p><a href="javascript:void(0);" onclick="showVideo(4)">Видео</a></p>
 <div id="videoContainer4" style="display: none;">
   <video id="videoObject4" src="videos/workConverter.mp4" width="100%" height="auto" controls></video>
+
+</div>
+
+<p><a href="javascript:void(0);" onclick="showImage(5)">Фото</a></p>
+<div id="imageContainer5" style="display: none;">
+  <img id="imageObject5" src="images/converter.png" alt="Пример PNG" width="100%" height="auto">
+
 </div>
 
 <script>
@@ -72,11 +100,6 @@
   }
 </script>
 
-<p><a href="javascript:void(0);" onclick="showImage(5)">Фото</a></p>
-<div id="imageContainer5" style="display: none;">
-  <img id="imageObject5" src="images/converter.png" alt="Пример PNG" width="100%" height="auto">
-</div>
-
 <script>
   function showImage(id) {
     var imageContainer = document.getElementById("imageContainer" + id);
@@ -87,4 +110,8 @@
     }
   }
 </script>
+
+  ## Учебные работы
+  - Page Oject. [Реализовал функцию тестирования переводов с карты на карту банковского приложения с использованием Page Object](https://github.com/GovardVolovets/page-object/blob/main/src/test/java/ru/netology/test/MoneyTransferTest.java). Нашел баг, завел [issues](https://github.com/GovardVolovets/page-object/issues/1)
+  - Selenid/Selenium. Создал различные тесты для тестирования веб-приложения заказа карты клиентом с использованием Selenid/Selenium: [ссылка 1](https://github.com/GovardVolovets/cardApplication/blob/main/src/test/java/ru/netology/cardApplication/CardApplicationTest.java), [ссылка 2](https://github.com/GovardVolovets/selenide/blob/main/src/test/java/ru/netology/web/test/RegistrationTest.java), [ссылка 3](https://github.com/GovardVolovets/patterns-first-task/blob/main/src/test/java/ru/netology/delivery/test/DeliveryTest.java), [ссылка 4](https://github.com/GovardVolovets/patterns-second-task/blob/main/src/test/java/ru/netology/testmode/test/AuthTest.java)
 
